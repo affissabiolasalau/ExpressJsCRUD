@@ -1,0 +1,21 @@
+<h1>{{pageTitle}}</h1>
+
+<form action="/add" method="POST" autocomplete="off">
+    <div class="form-group">
+        <label>First Name</label>
+        <input type="text" name="firstName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Last Name</label>
+        <input type="text" name="lastName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" class="form-control" name="phone" />
+    </div>
+    <div class="form-group">
+        <br />
+        <button type="submit" class="btn btn-info"> Submit </button> &nbsp;&nbsp;
+        <a class="btn btn-secondary" href="/"> View All</a>
+    </div>
+</form>

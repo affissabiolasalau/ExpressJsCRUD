@@ -1,0 +1,23 @@
+{
+  "name": "first_mern",
+  "version": "1.0.0",
+  "description": "First mern stack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mern_stack"
+  },
+  "author": "Adamson Damilola",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "handlebars": "^4.7.7",
+    "mongoose": "^5.13.2"
+  }
+}
